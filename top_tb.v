@@ -12,11 +12,7 @@ module top_tb();
     
     top UUT(.clk(clk), .PC(PC), .inst(inst));
     
-//  initial begin
-//    reset <= 1;
-//    #2000;
-//    $finish;
-//  end
+
 //start:
 //        ld      r1, #$ABCDEF12
 //        st      r1, $10
